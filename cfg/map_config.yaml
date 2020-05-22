@@ -1,0 +1,6 @@
+directory: "~/.ros/"
+maps:
+    - map1.yaml
+    - map2.yaml
+    - map3.yaml
+

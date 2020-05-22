@@ -1,0 +1,7 @@
+<launch>
+	<!-- map server (manage cached map) -->
+	<node pkg="multi_map_server" type="multi_map_server" name="multi_map_server" 
+	args="$(find multi_map_server)/cfg/map_config.yaml" 
+	output="screen" 
+	respawn="true"/>
+</launch>
