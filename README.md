@@ -1,5 +1,5 @@
 # multi_map_server
-This map server uploads multiple map on the memory. And support service interface for loading map.  
+This map server uploads multiple map on the memory. And support service interface for loading & changing map.  
 (Copied &amp; modified from https://github.com/ros-planning/navigation.git )
 
 - How to run
