@@ -4,9 +4,9 @@ This map server uploads multiple map on the memory. And support service interfac
 
 - How to run
 
-  '''bash
-  roslaunch multi_map_server server.launch
-  '''
+  
+  > roslaunch multi_map_server server.launch
+  
 
 - How to add / remove map
 
