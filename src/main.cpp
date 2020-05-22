@@ -48,7 +48,7 @@
 
 #include "ros/ros.h"
 #include "ros/console.h"
-#include "map_server/image_loader.h"
+#include "multi_map_server/image_loader.h"
 #include "nav_msgs/MapMetaData.h"
 #include "yaml-cpp/yaml.h"
 #include "std_srvs/Empty.h"
@@ -258,7 +258,7 @@ class MapServer
       {
           MapData tmp;
 
-          map_server::loadMapFromFile(&tmp, mapfname.c_str(),resolution,negate,occ_th,free_th, origin, mode);
+          multi_map_server::loadMapFromFile(&tmp, mapfname.c_str(),resolution,negate,occ_th,free_th, origin, mode);
 
           vector<string> tokens_dir = tokenize_getline(mapfname, '/');
 		  vector<string> tokens_name = tokenize_getline(tokens_dir.back(), '.');
